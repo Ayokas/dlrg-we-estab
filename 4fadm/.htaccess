@@ -1,0 +1,5 @@
+AuthUserFile C:\xampp\security\.htpasswd
+AuthType Basic
+AuthName "Adminbereich"
+require valid-user
+AuthBasicProvider file

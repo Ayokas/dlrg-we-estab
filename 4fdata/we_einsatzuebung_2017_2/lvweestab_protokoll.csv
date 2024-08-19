@@ -1,0 +1,472 @@
+1;"2017-05-25 08:45:00";"Anmelden";"Sichter;si;Si;Stab;3ab6i5h0ja6edp7o621hst4k15;10.10.13.23"
+2;"2017-05-25 08:45:00";"Abmelden";"Sichter;si;Si;Stab;3ab6i5h0ja6edp7o621hst4k15;10.10.13.23"
+3;"2017-05-25 08:45:00";"Anmelden";"EL;el;EL;Stab;q79mglfrvfvtgtfl54158mhkg2;10.10.13.23"
+4;"2017-05-25 08:45:00";"Abmelden";"EL;el;EL;Stab;q79mglfrvfvtgtfl54158mhkg2;10.10.13.23"
+5;"2017-05-25 08:47:00";"Anmelden";"S1S4;s14;S1S4;Stab;p42pnavm3vs0937aiio1h82fu0;10.10.13.23"
+6;"2017-05-25 08:47:00";"Abmelden";"S1S4;s14;S1S4;Stab;p42pnavm3vs0937aiio1h82fu0;10.10.13.23"
+7;"2017-05-25 08:47:00";"Anmelden";"S2;s2;S2;Stab;dobunaq1uvqefesg1bdotfral7;10.10.13.23"
+8;"2017-05-25 08:47:00";"Abmelden";"S2;s2;S2;Stab;dobunaq1uvqefesg1bdotfral7;10.10.13.23"
+9;"2017-05-25 08:48:00";"Anmelden";"UEL;uel;UEL;Stab;p6b94kqdhv2q7ce8p8poktbme4;10.10.13.23"
+10;"2017-05-25 08:48:00";"Abmelden";"UEL;uel;UEL;Stab;p6b94kqdhv2q7ce8p8poktbme4;10.10.13.23"
+11;"2017-05-25 08:49:00";"Anmelden";"S3S6;s36;S3S6;Stab;pi56vbu8ht3rincfc5p2oov2n4;10.10.13.23"
+12;"2017-05-25 08:49:00";"Abmelden";"S3S6;s36;S3S6;Stab;pi56vbu8ht3rincfc5p2oov2n4;10.10.13.23"
+13;"2017-05-25 08:49:00";"Anmelden";"AW1;aw1;A/W;Fernmelder;bilve3g7vuo0tpbgna1olo3fr2;10.10.13.23"
+14;"2017-05-25 08:49:00";"Abmelden";"AW1;aw1;A/W;Fernmelder;bilve3g7vuo0tpbgna1olo3fr2;10.10.13.23"
+15;"2017-05-25 08:52:00";"Funktion Ummelden";"Sichter;si;Si;Stab;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+16;"2017-05-25 08:53:00";"Anmelden";"AW3;aw3;A/W;Fernmelder;8kg0lv8te2co8ume09ksjcv8p2;10.10.13.21"
+17;"2017-05-25 08:53:00";"Anmelden";"AW2;aw2;A/W;Fernmelder;rqfvj21blon47u659atdk6mf90;10.10.13.22"
+18;"2017-05-25 08:54:00";"Funktion Ummelden";"AW1;aw1;A/W;Fernmelder;f8tt5cjd5c4pakp4fdm6op1mo6;10.10.13.23"
+19;"2017-05-25 08:54:00";"Abmelden";"AW2;aw2;A/W;Fernmelder;rqfvj21blon47u659atdk6mf90;10.10.13.22"
+20;"2017-05-25 08:54:00";"Abmelden";"AW3;aw3;A/W;Fernmelder;8kg0lv8te2co8ume09ksjcv8p2;10.10.13.21"
+21;"2017-05-25 08:54:00";"Funktion Ummelden";"AW2;aw2;A/W;Fernmelder;8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+22;"2017-05-25 08:54:00";"Funktion Ummelden";"AW3;aw3;A/W;Fernmelder;030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+23;"2017-05-25 09:02:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 09:02:00\",\
+            `01_zeichen`      = \"aw2\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"1\",\
+            `05_gegenstelle`  = \"S6-2\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Test-Nachricht\",\
+            `12_abfzeit`      = \"2017-05-25 09:02:00\",\
+            `13_abseinheit`   = \"S6-2\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+24;"2017-05-25 09:12:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 09:12:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,EL_gn,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"1\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+25;"2017-05-25 09:34:00";"Funktion Ummelden";"S2;s2;S2;Stab;05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+26;"2017-05-25 09:39:00";"Stab_S2 gelesen_1";"INSERT into usr_s2_s2_read SET\
+            `nachnum`      = \"1\",\
+            `gelesen`      = \"2017-05-25 09:39:00\";05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+27;"2017-05-25 09:43:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 09:43:00\",\
+            `01_zeichen`      = \"aw2\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"2\",\
+            `05_gegenstelle`  = \"WRZ 10 KdoW\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 10 KDOW f&auml;hrt Sammelraum an.\",\
+            `12_abfzeit`      = \"2017-05-25 09:43:00\",\
+            `13_abseinheit`   = \"WRZ 10 KdoW\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+28;"2017-05-25 09:45:00";"Stab_S2 gelesen_2";"INSERT into usr_s2_s2_read SET\
+            `nachnum`      = \"2\",\
+            `gelesen`      = \"2017-05-25 09:45:00\";05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+29;"2017-05-25 09:51:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 09:51:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"3\",\
+            `05_gegenstelle`  = \"WRZ 10 KdoW\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Bereitstllungsraum an\",\
+            `12_abfzeit`      = \"2017-05-25 09:51:00\",\
+            `13_abseinheit`   = \"WRZ 10 KdoW\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";f8tt5cjd5c4pakp4fdm6op1mo6;10.10.13.23"
+30;"2017-05-25 09:53:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 09:53:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"2\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+31;"2017-05-25 09:53:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 09:53:00\",\
+            `01_zeichen`      = \"aw3\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"4\",\
+            `05_gegenstelle`  = \"WRZ 3 KdoW\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"eingefunden am Sammelraum, warten auf Einheiten.\
+Verweis an Koost.\",\
+            `12_abfzeit`      = \"2017-05-25 09:53:00\",\
+            `13_abseinheit`   = \"WRZ 3 KdoW\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+32;"2017-05-25 09:53:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 09:53:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"3\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+33;"2017-05-25 09:54:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 09:54:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"4\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+34;"2017-05-25 09:55:00";"++ SI-Admin";"UPDATE  `lvweestab_nachrichten` SET\
+            `15_quitdatum`    = \"2017-05-25 09:53:00\",\
+            `15_quitzeichen`  =  \"si\",\
+            `16_empf`         =  \"S2_rt,\",\
+            `17_vermerke`     =  \"nicht Bereitstellungsraum sondern Sammelraum\"\
+             WHERE `00_lfd` = \"3\";f8tt5cjd5c4pakp4fdm6op1mo6;10.10.13.23"
+35;"2017-05-25 09:58:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 09:58:00\",\
+            `01_zeichen`      = \"aw3\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"5\",\
+            `05_gegenstelle`  = \"S6-2\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Test-Nachricht\",\
+            `12_abfzeit`      = \"2017-05-25 09:58:00\",\
+            `13_abseinheit`   = \"S6-2\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+36;"2017-05-25 10:01:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 10:01:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"5\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+37;"2017-05-25 10:05:00";"Stab_S2 gelesen_5";"INSERT into usr_s2_s2_read SET\
+            `nachnum`      = \"5\",\
+            `gelesen`      = \"2017-05-25 10:05:00\";05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+38;"2017-05-25 10:11:00";"Stab_S2 gelesen_4";"INSERT into usr_s2_s2_read SET\
+            `nachnum`      = \"4\",\
+            `gelesen`      = \"2017-05-25 10:11:00\";05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+39;"2017-05-25 10:12:00";"Stab_S2 gelesen_3";"INSERT into usr_s2_s2_read SET\
+            `nachnum`      = \"3\",\
+            `gelesen`      = \"2017-05-25 10:12:00\";05mlndgvl7hb5qshujljicb4s7;10.10.13.28"
+40;"2017-05-25 10:29:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fe\",\
+            `01_datum`        = \"2017-05-25 10:29:00\",\
+            `01_zeichen`      = \"aw3\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"6\",\
+            `05_gegenstelle`  = \"Koost\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 3 ist nun der Bereitschaftsf&uuml;hrung mit der St&auml;rke 1/10/37//48 unterstellt. Mit dabei ist eine &Uuml;bungssteuerung.\",\
+            `12_abfzeit`      = \"2017-05-25 10:29:00\",\
+            `13_abseinheit`   = \"Koost\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+41;"2017-05-25 10:30:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 10:30:00\",\
+            `01_zeichen`      = \"aw2\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"7\",\
+            `05_gegenstelle`  = \"WRZ 3\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 3 wurde der EAL1 untestellt und ist &uuml;ber Gruppe NRW_DLRG erreichbar.\",\
+            `12_abfzeit`      = \"2017-05-25 10:30:00\",\
+            `13_abseinheit`   = \"WRZ 3\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+42;"2017-05-25 10:30:00";"Stab_sichten";"UPDATE `lvweestab_nachrichten` SET\
+            `15_quitdatum`   = \"2017-05-25 10:30:00\",\
+            `15_quitzeichen` =  \"si\",\
+            `16_empf`           =  \"S2_rt,\",\
+            `17_vermerke`   =  \"\",\
+            `x00_status`      = \"8\",\
+            `x01_abschluss`   = \"t\",\
+            `x02_sperre`      = \"f\",\
+            `x03_sperruser`   = \"\"\
+             WHERE `00_lfd` = \"6\";;7tuju1306bfb2j189eogakh3d3;10.10.13.27"
+43;"2017-05-25 10:35:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 10:34:00\",\
+            `01_zeichen`      = \"aw3\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"8\",\
+            `05_gegenstelle`  = \"WRZ 10\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 10 ist der EAL1 &uuml;bergeben und einsatzbereit. \
+St&auml;rke ist 1/10/37//48\",\
+            `12_abfzeit`      = \"2017-05-25 10:34:00\",\
+            `13_abseinheit`   = \"WRZ 10\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+44;"2017-05-25 10:35:00";"Funktion Ummelden";"S1S4;s14;S1S4;Stab;01r35olknc5bgkdve4r13ie462;10.10.13.26"
+45;"2017-05-25 10:35:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fe\",\
+            `01_datum`        = \"2017-05-25 10:35:00\",\
+            `01_zeichen`      = \"aw2\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"9\",\
+            `05_gegenstelle`  = \"KooSt\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 10 in St&auml;rke 1/10/37//48 der EAL1 unterstellt und wartet im Sammelraum auf weitere Anweisungen. (Gruppe NRW_DLRG)\",\
+            `12_abfzeit`      = \"2017-05-25 10:35:00\",\
+            `13_abseinheit`   = \"KooSt\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+46;"2017-05-25 10:47:00";"Anmelden";"AW4;aw4;A/W;Fernmelder;8vb7vovosdjtevnpt9d84vopr0;10.10.13.24"
+47;"2017-05-25 10:54:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 10:54:00\",\
+            `01_zeichen`      = \"aw3\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"10\",\
+            `05_gegenstelle`  = \"WRZ 3 \",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Hat den Einsatzbefehl Forrest Gump erhalten und hat sich in Marsch gesetzt.\",\
+            `12_abfzeit`      = \"2017-05-25 10:54:00\",\
+            `13_abseinheit`   = \"WRZ 3 \",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";030li6md7ovdcqmpb2o23k1274;10.10.13.21"
+48;"2017-05-25 10:55:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fe\",\
+            `01_datum`        = \"2017-05-25 10:55:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"11\",\
+            `05_gegenstelle`  = \"Koordinierungsstelle\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Der WRZ 4 mit der St&auml;rke 1/10/38//49, ist im Sammelraum bereit und wurde an die EAL &uuml;bergeben.\
+Er hat auf den Kanal NRW_DLRG gewechselt und warte auf Auftr&auml;ge\",\
+            `12_abfzeit`      = \"2017-05-25 10:55:00\",\
+            `13_abseinheit`   = \"Koordinierungsstelle\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";f8tt5cjd5c4pakp4fdm6op1mo6;10.10.13.23"
+49;"2017-05-25 10:56:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 10:56:00\",\
+            `01_zeichen`      = \"aw2\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"12\",\
+            `05_gegenstelle`  = \"WRZ 10\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"WRZ 10 setzt sich in St&auml;rke 1/10/37//48 zum Auftrag &quot;schneller Eddi&quot; (Slippstelle Wiesenbeck) in Bewegung.\
+\
+Frage: Wie erfolgt die Aufnahme des Mittagessens?\",\
+            `12_abfzeit`      = \"2017-05-25 10:56:00\",\
+            `13_abseinheit`   = \"WRZ 10\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";8htm26o14sfgm3gi9vnclml0i7;10.10.13.22"
+50;"2017-05-25 10:57:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 10:57:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"13\",\
+            `05_gegenstelle`  = \"WRZ 4\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Der WRZ 4 wurde der EAL unterstellt und wartet auf Auftr&auml;ge\
+\",\
+            `12_abfzeit`      = \"2017-05-25 10:57:00\",\
+            `13_abseinheit`   = \"WRZ 4\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";f8tt5cjd5c4pakp4fdm6op1mo6;10.10.13.23"
+51;"2017-05-25 11:03:00";"Abmelden";"AW4;aw4;A/W;Fernmelder;8vb7vovosdjtevnpt9d84vopr0;10.10.13.24"
+52;"2017-05-25 11:03:00";"Sessiondaten neu setzen";"AW1;aw1;A/W;Fernmelder;bpknv7t0i3qv36f5l71jf5mum0;10.10.13.24"
+53;"2017-05-25 11:03:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 11:03:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"14\",\
+            `05_gegenstelle`  = \"Test\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"Test\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Test\",\
+            `12_abfzeit`      = \"2017-05-25 11:03:00\",\
+            `13_abseinheit`   = \"Test\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";bpknv7t0i3qv36f5l71jf5mum0;10.10.13.24"
+54;"2017-05-25 11:10:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 11:10:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"15\",\
+            `05_gegenstelle`  = \"Test1\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Test1\",\
+            `12_abfzeit`      = \"2017-05-25 11:10:00\",\
+            `13_abseinheit`   = \"Test1\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";bpknv7t0i3qv36f5l71jf5mum0;10.10.13.24"
+55;"2017-05-25 11:16:00";"Abmelden";"S1S4;s14;S1S4;Stab;01r35olknc5bgkdve4r13ie462;10.10.13.26"
+56;"2017-05-25 11:17:00";"Funktion Ummelden";"S1S4;s14;S1S4;Stab;u06doiore1evia30lgdnqrrp03;10.10.13.26"
+57;"2017-05-25 11:17:00";"Abmelden";"S1S4;s14;S1S4;Stab;u06doiore1evia30lgdnqrrp03;10.10.13.26"
+58;"2017-05-25 11:17:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
+            `01_medium`       = \"Fu\",\
+            `01_datum`        = \"2017-05-25 11:17:00\",\
+            `01_zeichen`      = \"aw1\",\
+            `04_richtung`     = \"E\",\
+            `04_nummer`       = \"16\",\
+            `05_gegenstelle`  = \"Test2\",\
+            `07_durchspruch`  = \"\",\
+            `08_befhinweis`   = \"\",\
+            `08_befhinwausw`  = \"\",\
+            `09_vorrangstufe` = \"\",\
+            `10_anschrift`    = \"EAL DLRG WE\",\
+            `11_gesprnotiz`   = \"f\",\
+            `12_anhang`       = \"\",\
+            `12_inhalt`       = \"Test2\",\
+            `12_abfzeit`      = \"2017-05-25 11:17:00\",\
+            `13_abseinheit`   = \"Test2\",\
+            `14_zeichen`      = \"\",\
+            `14_funktion`     = \"\",\
+            `16_empf`         = \"S2_rt,\",\
+            `x00_status`      = \"4\",\
+            `x01_abschluss`   = \"f\";bpknv7t0i3qv36f5l71jf5mum0;10.10.13.24"
+59;"2017-05-25 11:17:00";"Funktion Ummelden";"EL;el;EL;Stab;rjppngsu7pq1ijn2jkvfvdcf55;10.10.13.26"
+60;"2017-05-25 11:17:00";"Abmelden";"EL;el;EL;Stab;rjppngsu7pq1ijn2jkvfvdcf55;10.10.13.26"
+61;"2017-05-25 11:18:00";"Funktion Ummelden";"S1S4;s14;S1S4;Stab;t708s4ggf3k5r82kchbld7lr93;10.10.13.26"
