@@ -1,71 +1,0 @@
-1;"2017-05-25 11:25:00";"Abmelden";"AW1;aw1;A/W;Fernmelder;bpknv7t0i3qv36f5l71jf5mum0;10.10.13.24"
-2;"2017-05-25 11:26:00";"Anmelden";"EL;el;EL;Stab;ed1mptcg3torodj4q3l60bbi46;10.10.13.24"
-3;"2017-05-25 11:27:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2017-05-25 11:27:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"1\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Intern\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Test\",\
-            `12_abfzeit`      = \"2017-05-25 11:27:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-4;"2017-05-25 11:27:00";"Stab_EL gelesen_1";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"1\",\
-            `gelesen`      = \"2017-05-25 11:27:00\";ed1mptcg3torodj4q3l60bbi46;10.10.13.24"
-5;"2017-05-25 11:44:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2017-05-25 11:44:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"2\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"Test2\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Test2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Test2\",\
-            `12_abfzeit`      = \"2017-05-25 11:44:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-6;"2017-05-25 11:44:00";"Stab_EL gelesen_2";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"2\",\
-            `gelesen`      = \"2017-05-25 11:44:00\";ed1mptcg3torodj4q3l60bbi46;10.10.13.24"
-7;"2017-05-25 12:06:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2017-05-25 12:06:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"3\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"df\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"f\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"f\",\
-            `12_abfzeit`      = \"2017-05-25 12:06:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-8;"2017-05-25 12:06:00";"Stab_EL gelesen_3";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"3\",\
-            `gelesen`      = \"2017-05-25 12:06:00\";ed1mptcg3torodj4q3l60bbi46;10.10.13.24"

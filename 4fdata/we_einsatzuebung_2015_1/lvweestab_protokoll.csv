@@ -1,37 +1,0 @@
-1;"2015-04-30 16:16:00";"Anmelden";"test;tes;Si;Stab;jbrtld42kn8g82gu53bm4tmn83;10.10.44.115"
-2;"2015-04-30 16:18:00";"Abmelden";"test;tes;Si;Stab;jbrtld42kn8g82gu53bm4tmn83;10.10.44.115"
-3;"2015-04-30 16:19:00";"Funktion Ummelden";"test;tes;Si;Stab;otk3tfshfg3ijhfj1gu0vlqip6;10.10.44.115"
-4;"2015-04-30 16:19:00";"Abmelden";"test;tes;Si;Stab;otk3tfshfg3ijhfj1gu0vlqip6;10.10.44.115"
-5;"2015-04-30 16:20:00";"Funktion Ummelden";"test;tes;Si;Stab;f81rn9a1de28ee41lkiu620i92;10.10.44.115"
-6;"2015-04-30 16:20:00";"Abmelden";"test;tes;Si;Stab;f81rn9a1de28ee41lkiu620i92;10.10.44.115"
-7;"2015-04-30 16:23:00";"Funktion Ummelden";"test;tes;Si;Stab;orvh227026g8pp63giihtm2ld0;10.10.44.115"
-8;"2015-04-30 16:23:00";"Abmelden";"test;tes;Si;Stab;orvh227026g8pp63giihtm2ld0;10.10.44.115"
-9;"2015-04-30 16:24:00";"Anmelden";"test2;t2;A/W;Fernmelder;tgb703nsiv404ughbu6idsrbt1;10.10.44.115"
-10;"2015-04-30 16:28:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2015-04-30 16:28:00\",\
-            `01_zeichen`      = \"t2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"1\",\
-            `05_gegenstelle`  = \"mnfnh\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"fgh\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"gfhgfh\",\
-            `12_abfzeit`      = \"2015-04-30 16:28:00\",\
-            `13_abseinheit`   = \"ztuiz\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2015-04-30 16:28:00\",\
-            `15_quitzeichen`  =  \"t2\",\
-            `16_empf`         =  \"_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";tgb703nsiv404ughbu6idsrbt1;10.10.44.115"
-11;"2015-04-30 16:38:00";"Abmelden";"test2;t2;A/W;Fernmelder;tgb703nsiv404ughbu6idsrbt1;10.10.44.115"
-12;"2015-04-30 16:41:00";"Funktion Ummelden";"test2;t2;A/W;Fernmelder;hpln1djtgqvraul7mhh0k8thb6;10.10.44.115"
-13;"2015-05-01 00:30:00";"Abmelden";"test2;t2;A/W;Fernmelder;hpln1djtgqvraul7mhh0k8thb6;192.168.81.129"

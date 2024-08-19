@@ -1,3356 +1,0 @@
-1;"2022-10-01 11:24:00";"Anmelden";"Sichter;si;Si;Stab;tepbqi7rhbsqaq275k3p76pej0;10.10.13.23"
-2;"2022-10-01 11:26:00";"Anmelden";"Fernmelder1;fm1;A/W;Fernmelder;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-3;"2022-10-01 11:27:00";"Anmelden";"Fernmelder 2;fm2;A/W;Fernmelder;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-4;"2022-10-01 11:30:00";"Abmelden";"Sichter;si;Si;Stab;tepbqi7rhbsqaq275k3p76pej0;10.10.13.23"
-5;"2022-10-01 11:30:00";"Anmelden";"EL;el;EL;Stab;4naka6r78uop7lqja04r1tna77;10.10.13.23"
-6;"2022-10-01 11:43:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:42:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"1\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"KDOW des WRZ4 auf Anfahrt zum Sammelraum\
-1/1/2//4\",\
-            `12_abfzeit`      = \"2022-10-01 11:42:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `16_empf`         = \"S2_rt,\",\
-            `x00_status`      = \"4\",\
-            `x01_abschluss`   = \"f\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-7;"2022-10-01 11:44:00";"FM-Eingang";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:44:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"2\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abgr&uuml;cken zur Sammelstelle\
-1/1/2//4\
-voraussichtl. Ankunftszeit:11.00                                                                                                                                                                                   \",\
-            `12_abfzeit`      = \"2022-10-01 11:44:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `16_empf`         = \"S2_rt,\",\
-            `x00_status`      = \"4\",\
-            `x01_abschluss`   = \"f\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-8;"2022-10-01 11:45:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:45:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"3\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 6 auf dem Weg zum Sammelraum\
-St&auml;rke 1/1/2//4\
-Ankunftszeit: 011152okt22\",\
-            `12_abfzeit`      = \"2022-10-01 11:45:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:45:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-9;"2022-10-01 11:46:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:46:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"4\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abr&uuml;cken WRZ8\
-St&auml;rke: 1/1/2//4\
-Ankunftszeit: in ca. 1 min\",\
-            `12_abfzeit`      = \"2022-10-01 11:46:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:46:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-10;"2022-10-01 11:47:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:47:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"5\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Sammelrsaum\",\
-            `12_abfzeit`      = \"2022-10-01 11:47:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:47:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-11;"2022-10-01 11:52:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:52:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"6\",\
-            `05_gegenstelle`  = \"WRZ5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Sammelstelle\",\
-            `12_abfzeit`      = \"2022-10-01 11:52:00\",\
-            `13_abseinheit`   = \"WRZ5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:52:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-12;"2022-10-01 11:53:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:53:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"7\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 4 Eintreffen in Sammelraum.\
-Beginn der Erkundung\",\
-            `12_abfzeit`      = \"2022-10-01 11:53:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:53:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-13;"2022-10-01 11:58:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 11:55:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"8\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"am Bereitstellungsraum eingetroffen\",\
-            `12_abfzeit`      = \"2022-10-01 WR:Z7:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 11:55:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-14;"2022-10-01 11:58:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 11:58:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"9\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 8\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Standort KdoW, wie lange noch bis zum eintreffen?\",\
-            `12_abfzeit`      = \"2022-10-01 11:58:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-15;"2022-10-01 11:58:00";"Stab_EL gelesen_9";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"9\",\
-            `gelesen`      = \"2022-10-01 11:58:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-16;"2022-10-01 12:00:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 12:00:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 12:00:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"9\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-17;"2022-10-01 12:01:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:01:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"10\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 9 \
-&quot;Standort KdoW, wie lange noch bis zum eintreffen?&quot;\
-WRZ hat Eintreffen 11.42 gemeldet\
-\",\
-            `12_abfzeit`      = \"2022-10-01 12:01:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 12:01:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-18;"2022-10-01 12:03:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 12:03:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"11\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ4, WRZ5, WRZ6, WRZ7, WRZ8\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Erkundung des Sammelraums nach Platz f&uuml;r eine Einsatzeinheit NRW\",\
-            `12_abfzeit`      = \"2022-10-01 12:03:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-19;"2022-10-01 12:03:00";"Stab_EL gelesen_11";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"11\",\
-            `gelesen`      = \"2022-10-01 12:03:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-20;"2022-10-01 12:07:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:07:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"12\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Sammelpatz erkundet. Platz f&uuml;r einen WRZ + Einsatzeinheit\",\
-            `12_abfzeit`      = \"2022-10-01 WR:Z7:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:07:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-21;"2022-10-01 12:08:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:08:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"13\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Erkundung Sammelraum abgeschlossen,\
-Platz f&uuml;r 1 WRZ\
-\",\
-            `12_abfzeit`      = \"2022-10-01 12:08:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:08:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-22;"2022-10-01 12:10:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:10:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"14\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Platz im Bereitsstellungsraum: WRZ8 + ein weiterer\",\
-            `12_abfzeit`      = \"2022-10-01 12:10:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:10:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-23;"2022-10-01 12:12:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 12:12:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"WRZ 5, WRZ 6\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"Fu\",\
-            `15_quitdatum`   = \"2022-10-01 12:12:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"11\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-24;"2022-10-01 12:13:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:13:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"15\",\
-            `05_gegenstelle`  = \"WRZ 5, WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 11 \
-&quot;Erkundung des Sammelraums nach Platz f&uuml;r eine Einsatzeinheit NRW&quot;\
-WRZ 6 best&auml;tigt Platz f&uuml;r Einsatzeinheit NRW\
-\",\
-            `12_abfzeit`      = \"2022-10-01 12:13:00\",\
-            `13_abseinheit`   = \"WRZ4, WRZ5, WRZ6, WRZ7, WRZ8\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 12:13:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-25;"2022-10-01 12:16:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 12:16:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"16\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 4\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Mitteilung von der KooSt:\
-Anruf des 2. Bootstrupps der 2. Bootsgruppe, das Zugfahrzeug hat einen Platten und der Trupp wird ca. 40 Minuten sp&auml;ter im Sammelraum eintreffen\",\
-            `12_abfzeit`      = \"2022-10-01 12:16:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-26;"2022-10-01 12:16:00";"Stab_EL gelesen_16";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"16\",\
-            `gelesen`      = \"2022-10-01 12:16:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-27;"2022-10-01 12:17:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:17:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"17\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 4 gibt UTM Koordinaten durch: 4440205720080\",\
-            `12_abfzeit`      = \"2022-10-01 12:17:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:17:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-28;"2022-10-01 12:20:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:19:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"18\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 5 best&auml;tigt Platz f&uuml;r Einsatzeinheit NRW\",\
-            `12_abfzeit`      = \"2022-10-01 12:19:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:19:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-29;"2022-10-01 12:20:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:20:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"19\",\
-            `05_gegenstelle`  = \"WRZ/\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Entreffen am Bereitstellungsraum mit WRZ7 1/10/37//48\",\
-            `12_abfzeit`      = \"2022-10-01 12:20:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:20:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-30;"2022-10-01 12:22:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:21:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"20\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten: 29U 5532 5723\",\
-            `12_abfzeit`      = \"2022-10-01 12:21:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:21:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-31;"2022-10-01 12:24:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 12:24:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"Fu\",\
-            `15_quitdatum`   = \"2022-10-01 12:24:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"16\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-32;"2022-10-01 12:25:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:25:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"21\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Verlegen zur&uuml;ck in den Sammelraum\",\
-            `12_abfzeit`      = \"2022-10-01 12:25:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:25:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-33;"2022-10-01 12:25:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:25:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"22\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 16 \
-&quot;Mitteilung von der KooSt:\
-Anruf des 2. Bootstrupps der 2. Bootsgruppe, das Zugfahrzeug hat einen Platten und der Trupp wird ca. 40 Minuten sp&auml;ter im Sammelraum eintreffen&quot;\
-\
-WRZ 4 hat Information verstanden\
-\",\
-            `12_abfzeit`      = \"2022-10-01 12:25:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 12:25:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-34;"2022-10-01 12:26:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:26:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"23\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 7 gibt Koordinaten durch: 32U43421304\",\
-            `12_abfzeit`      = \"2022-10-01 12:26:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:26:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-35;"2022-10-01 12:29:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:29:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"24\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Platz f&uuml;r 3 WRZ + Einsatzeinheit\
-Koordinaten des Sammelraums\
-32U 43845 57156\",\
-            `12_abfzeit`      = \"2022-10-01 12:29:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:29:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-36;"2022-10-01 12:30:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:30:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"25\",\
-            `05_gegenstelle`  = \"WRZ 5 \",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 5 gibt UTM Koordinaten durch: 32U44105725\",\
-            `12_abfzeit`      = \"2022-10-01 12:30:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:30:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-37;"2022-10-01 12:31:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:31:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"26\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Kommen zur&uuml;ck zur Unterkunft (Schranke)\",\
-            `12_abfzeit`      = \"2022-10-01 12:31:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:31:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-38;"2022-10-01 12:32:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:32:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"27\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 7 hat Auftrag abgeschlossen und r&uuml;ckt zur Unterkunft ein.\",\
-            `12_abfzeit`      = \"2022-10-01 12:32:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:32:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-39;"2022-10-01 12:32:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:32:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"28\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;ckkehr bis Schranke\",\
-            `12_abfzeit`      = \"2022-10-01 12:32:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:32:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-40;"2022-10-01 12:33:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:33:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"29\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 5 hat Auftrag abgeschlossen und r&uuml;ckt zur Unterkunft ein.\",\
-            `12_abfzeit`      = \"2022-10-01 12:33:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:33:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-41;"2022-10-01 12:36:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 12:36:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"30\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;ckfahrt zur Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 12:36:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 12:36:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-42;"2022-10-01 14:09:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:09:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"31\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Anfahrt &uuml;ber die A2\",\
-            `12_abfzeit`      = \"2022-10-01 14:09:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 14:09:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-43;"2022-10-01 14:14:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:14:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"32\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;cken ab vom Sammelraum Richtung Tangerm&uuml;nde\
-vorauss. fahrtzeut: 5 h 10 min\
-1/10/37//48\",\
-            `12_abfzeit`      = \"2022-10-01 14:14:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 14:14:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-44;"2022-10-01 14:16:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 14:16:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"33\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ4, WRZ 5, WRZ6\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Anfrage der KooSt:\
-- Standort\
-- Planungsstand\",\
-            `12_abfzeit`      = \"2022-10-01 14:16:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-45;"2022-10-01 14:16:00";"Stab_EL gelesen_33";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"33\",\
-            `gelesen`      = \"2022-10-01 14:16:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-46;"2022-10-01 14:24:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 14:24:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 14:24:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"33\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-47;"2022-10-01 14:27:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:27:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"34\",\
-            `05_gegenstelle`  = \"WRZ 4, WRZ 5, WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 33 \
-&quot;Anfrage der KooSt:\
-- Standort\
-- Planungsstand&quot;\
-\
-WRZ 4: Standort Rastplatz \
-Abfahrt 011430Okt22\
-\
-WRZ 5: Abfahrt Dorsten bei Tangerm&uuml;nde\
-Fahrzeit 8 Std. 10 Min\
-\
-WRZ 6: Standort: BAB 45, Richtung Siegerland, Kilometer 103\
-Planung unter Ber&uuml;cksichtigung der Sperrung A45 L&uuml;denscheid\
-\
-\",\
-            `12_abfzeit`      = \"2022-10-01 14:27:00\",\
-            `13_abseinheit`   = \"WRZ4, WRZ 5, WRZ6\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 14:27:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-48;"2022-10-01 14:35:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:35:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"35\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abmarsch von der A 45 FR Norden auf die A 4\",\
-            `12_abfzeit`      = \"2022-10-01 14:35:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 14:35:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-49;"2022-10-01 14:37:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:37:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"36\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abfahrt von Rastplatz am Haarstrang\
-&uuml;ber BAB 44 in Richtung Tangerm&uuml;nde\",\
-            `12_abfzeit`      = \"2022-10-01 14:37:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 14:37:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-50;"2022-10-01 14:41:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 14:41:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"37\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 6\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Ein Hinweis aus der Einsatzleitung:\
-Auf der A4 befindet sich in H&ouml;he Alsfeld eine Baustelle,\
-Sonderrechte sind vom MiK nicht freigegeben!\",\
-            `12_abfzeit`      = \"2022-10-01 14:41:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-51;"2022-10-01 14:41:00";"Stab_EL gelesen_37";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"37\",\
-            `gelesen`      = \"2022-10-01 14:41:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-52;"2022-10-01 14:44:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 14:44:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 14:44:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"37\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-53;"2022-10-01 14:44:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 14:44:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"38\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 37 \
-&quot;Ein Hinweis aus der Einsatzleitung:\
-Auf der A4 befindet sich in H&ouml;he Alsfeld eine Baustelle,\
-Sonderrechte sind vom MiK nicht freigegeben!&quot;\
-\
-Keine verst&auml;ndigung\
-\",\
-            `12_abfzeit`      = \"2022-10-01 14:44:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 14:44:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-54;"2022-10-01 15:23:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:23:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"39\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"14.15 Uhr Abmarsch zur Sch&uuml;tzenhalle\",\
-            `12_abfzeit`      = \"2022-10-01 15:23:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:23:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-55;"2022-10-01 15:24:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:24:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"40\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abfahrt zum Bereitstellungsraum,\
-St&auml;rke 1/1/2//4\",\
-            `12_abfzeit`      = \"2022-10-01 15:24:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:24:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-56;"2022-10-01 15:25:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:25:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"41\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"15.23 Uhr Abmarsch zur Sch&uuml;tzenhalle\
-1/1/4//4\",\
-            `12_abfzeit`      = \"2022-10-01 15:25:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:25:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-57;"2022-10-01 15:27:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:27:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"42\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abfahrt zum Bereitstellungsraum 011513okt22,\
-Ankunft um 011523okt22,\
-St&auml;rke 1/1/2//4\
-\",\
-            `12_abfzeit`      = \"2022-10-01 15:27:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:27:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-58;"2022-10-01 15:27:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:27:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"43\",\
-            `05_gegenstelle`  = \"WRZ 4                                                                           \",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Sch&uuml;tzenhalle\",\
-            `12_abfzeit`      = \"2022-10-01 15:27:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:27:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-59;"2022-10-01 15:29:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:29:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"44\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen\",\
-            `12_abfzeit`      = \"2022-10-01 15:29:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:29:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-60;"2022-10-01 15:30:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:30:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"45\",\
-            `05_gegenstelle`  = \"WRZ 6 \",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Ankunft im Bereitstellungsraum um 011524okt22\",\
-            `12_abfzeit`      = \"2022-10-01 15:30:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:30:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-61;"2022-10-01 15:30:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 15:30:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"46\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 5\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"- Standort?\
-- St&auml;rke?\",\
-            `12_abfzeit`      = \"2022-10-01 15:30:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-62;"2022-10-01 15:30:00";"Stab_EL gelesen_46";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"46\",\
-            `gelesen`      = \"2022-10-01 15:30:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-63;"2022-10-01 15:30:00";"Stab_EL gelesen_45";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"45\",\
-            `gelesen`      = \"2022-10-01 15:30:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-64;"2022-10-01 15:31:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:31:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"47\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Ankunft im Bereitstellungsraum um 011526okt22,\
-Beginn Erkundung\",\
-            `12_abfzeit`      = \"2022-10-01 15:31:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:31:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-65;"2022-10-01 15:31:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 15:31:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"48\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 6\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"St&auml;rke?\",\
-            `12_abfzeit`      = \"2022-10-01 15:31:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-66;"2022-10-01 15:31:00";"Stab_EL gelesen_48";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"48\",\
-            `gelesen`      = \"2022-10-01 15:31:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-67;"2022-10-01 15:33:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 15:33:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 15:33:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"48\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-68;"2022-10-01 15:33:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:33:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"49\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 48 \
-&quot;St&auml;rke?&quot;\
-1/1/2//4\",\
-            `12_abfzeit`      = \"2022-10-01 15:33:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 15:33:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-69;"2022-10-01 15:34:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 15:34:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 15:34:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"46\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-70;"2022-10-01 15:34:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:34:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"50\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 46 \
-&quot;- Standort?\
-- St&auml;rke?&quot;\
-\
-Antwort:\
-Standort: Im Bereitstellungsraum,\
-St&auml;rke: 1/1/2//4\",\
-            `12_abfzeit`      = \"2022-10-01 15:34:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 15:34:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-71;"2022-10-01 15:39:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:39:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"51\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten: 32U4457557224\",\
-            `12_abfzeit`      = \"2022-10-01 15:39:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:39:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-72;"2022-10-01 15:44:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:44:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"52\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten: 32UMC45952233\",\
-            `12_abfzeit`      = \"2022-10-01 15:44:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:44:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-73;"2022-10-01 15:46:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 15:46:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"53\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 5\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Erkunden Sie, ob zus&auml;tzlich Platz f&uuml;r eine Bereitschaft der Bezirksregierung DT zur Verf&uuml;gung steht\",\
-            `12_abfzeit`      = \"2022-10-01 15:46:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-74;"2022-10-01 15:46:00";"Stab_EL gelesen_53";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"53\",\
-            `gelesen`      = \"2022-10-01 15:46:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-75;"2022-10-01 15:50:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 15:50:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 15:50:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"53\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-76;"2022-10-01 15:51:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:51:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"54\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 53 \
-&quot;Erkunden Sie, ob zus&auml;tzlich Platz f&uuml;r eine Bereitschaft der Bezirksregierung DT zur Verf&uuml;gung steht&quot;\
-\
-Antwort: \
-Es steht kein Platz zur Verf&uuml;gung.\",\
-            `12_abfzeit`      = \"2022-10-01 15:51:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 15:51:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-77;"2022-10-01 15:54:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:54:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"55\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten: 32U MC 4599422322\",\
-            `12_abfzeit`      = \"2022-10-01 15:54:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:54:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-78;"2022-10-01 15:56:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:56:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"56\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;ckmarsch\",\
-            `12_abfzeit`      = \"2022-10-01 15:56:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:56:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-79;"2022-10-01 15:59:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 15:59:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"57\",\
-            `05_gegenstelle`  = \"WRZ3\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Platz f&uuml;r 3. WRZ vorhanden\",\
-            `12_abfzeit`      = \"2022-10-01 15:59:00\",\
-            `13_abseinheit`   = \"WRZ3\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 15:59:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-80;"2022-10-01 16:03:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:03:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"58\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;ckmarsch\",\
-            `12_abfzeit`      = \"2022-10-01 16:03:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:03:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-81;"2022-10-01 16:04:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:04:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"59\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Auftrag beendet und Beginn Einr&uuml;cken\",\
-            `12_abfzeit`      = \"2022-10-01 16:04:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:04:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-82;"2022-10-01 16:04:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:04:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"60\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 16:04:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:04:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-83;"2022-10-01 16:05:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:05:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"61\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"R&uuml;ckmarsch\",\
-            `12_abfzeit`      = \"2022-10-01 16:05:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:05:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-84;"2022-10-01 16:08:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:08:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"62\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten: 32U4450007572300004\",\
-            `12_abfzeit`      = \"2022-10-01 16:08:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:08:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-85;"2022-10-01 16:08:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:08:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"63\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Auftrag abgeschlossen,\
-Beginn Einr&uuml;cken\",\
-            `12_abfzeit`      = \"2022-10-01 16:08:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:08:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-86;"2022-10-01 16:09:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:09:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"64\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 16:09:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:09:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-87;"2022-10-01 16:13:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:13:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"65\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 WR:Z7:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:13:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-88;"2022-10-01 16:15:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:15:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"66\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 16:15:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:15:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-89;"2022-10-01 16:15:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:15:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"67\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen Unterkunft\",\
-            `12_abfzeit`      = \"2022-10-01 16:15:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:15:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-90;"2022-10-01 16:51:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:51:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"68\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"WRZ 4 beginnt Einsatz\",\
-            `12_abfzeit`      = \"2022-10-01 16:51:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:51:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-91;"2022-10-01 16:52:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:52:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"69\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Unterwegs zur Einsatzstelle\",\
-            `12_abfzeit`      = \"2022-10-01 16:52:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:52:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-92;"2022-10-01 16:54:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:54:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"70\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abmarsch zum Einsatzort\",\
-            `12_abfzeit`      = \"2022-10-01 16:54:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:54:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-93;"2022-10-01 16:54:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:54:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"71\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"E-Stelle an\",\
-            `12_abfzeit`      = \"2022-10-01 16:54:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:54:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-94;"2022-10-01 16:55:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:55:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"72\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abmarsch zum Einsatzort\",\
-            `12_abfzeit`      = \"2022-10-01 16:55:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:55:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-95;"2022-10-01 16:56:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:56:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"73\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Abmarsch zum Einsatzort 16:48\
-Eintreffen 16:50\",\
-            `12_abfzeit`      = \"2022-10-01 16:56:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:56:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-96;"2022-10-01 16:57:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 16:57:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"74\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"E-Stelle an\",\
-            `12_abfzeit`      = \"2022-10-01 16:57:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 16:57:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-97;"2022-10-01 17:14:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:14:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"75\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Anforderung 8800 Sands&auml;cke zu Koordinaten 32U35915726\
-\",\
-            `12_abfzeit`      = \"2022-10-01 17:14:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:14:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-98;"2022-10-01 17:17:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:17:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"76\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Materialanforderung:\
-10.000 Sands&auml;cke,\
-20 Rollen Folie a 20m L&auml;nge\",\
-            `12_abfzeit`      = \"2022-10-01 17:17:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:17:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-99;"2022-10-01 17:17:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:17:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"77\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 12\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage nach Pegel: \",\
-            `12_abfzeit`      = \"2022-10-01 17:17:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:17:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-100;"2022-10-01 17:18:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:18:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"78\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"ben&ouml;tigt MA des Gr&uuml;nfl&auml;chenamtes\",\
-            `12_abfzeit`      = \"2022-10-01 17:18:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:18:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-101;"2022-10-01 17:21:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:21:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"79\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 12\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Anforderung 23 Folien a 20 m\
-9000 Sands&auml;cke\
-1 WRZ\
-1 Bergungszug THW mit Radlader\
-Koordinaten folgen\",\
-            `12_abfzeit`      = \"2022-10-01 17:21:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:21:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-102;"2022-10-01 17:22:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:22:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"80\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Materialanforderung:\
-20 Folien,\
-8800 Sands&auml;cke,\
-2 Stangen 6-7m\",\
-            `12_abfzeit`      = \"2022-10-01 17:22:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:22:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-103;"2022-10-01 17:25:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:25:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"81\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 12\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten f&uuml;r die lieferung: 32U3587355725898\",\
-            `12_abfzeit`      = \"2022-10-01 17:25:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:25:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-104;"2022-10-01 17:29:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:28:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"82\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 12\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Anforderung:\
-10 Kisten getr&auml;nke\
-20 Rohre\
-400 x 5 m laufende Folie\
-9000 Sands&auml;cke\",\
-            `12_abfzeit`      = \"2022-10-01 17:28:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:28:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-105;"2022-10-01 17:30:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:30:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"83\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Materialanforderung:\
-Folie: 500m L&auml;nge, 6m Breite,\
-drei Stahlstangen: 8m L&auml;nge           \",\
-            `12_abfzeit`      = \"2022-10-01 17:30:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:30:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-106;"2022-10-01 17:32:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:32:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"84\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage nach Erreichen Anforderung\
-Lieferung zu Invert 65\",\
-            `12_abfzeit`      = \"2022-10-01 17:32:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:32:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-107;"2022-10-01 17:33:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:33:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"85\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage: Slippstelle bekannt?\",\
-            `12_abfzeit`      = \"2022-10-01 17:33:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:33:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-108;"2022-10-01 17:34:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:34:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"86\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Ben&ouml;tigt wird eine Dekon Einheit der FW\",\
-            `12_abfzeit`      = \"2022-10-01 17:34:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:34:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-109;"2022-10-01 17:53:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:53:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"87\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Einsatz &uuml;bernommen\",\
-            `12_abfzeit`      = \"2022-10-01 17:53:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:53:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-110;"2022-10-01 17:57:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:57:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"88\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage: Zust&auml;ndige EAL?\
-\",\
-            `12_abfzeit`      = \"2022-10-01 17:57:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:57:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-111;"2022-10-01 17:58:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:58:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"89\",\
-            `05_gegenstelle`  = \"WRZ7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Material eingetroffen,\
-Sicherungsarbeit\",\
-            `12_abfzeit`      = \"2022-10-01 17:58:00\",\
-            `13_abseinheit`   = \"WRZ7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:58:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-112;"2022-10-01 17:59:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 17:59:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"90\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Meldung: Eintreffen E-Stelle\
-Frage: Zust&auml;ndige EAL?\
-Antwort: Florian Dorsten 1 ELW 1-2 ist zust&auml;ndig\",\
-            `12_abfzeit`      = \"2022-10-01 17:59:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 17:59:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-113;"2022-10-01 18:00:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:00:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"91\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Beginnen mit den Sicherungsarbeiten\",\
-            `12_abfzeit`      = \"2022-10-01 18:00:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:00:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-114;"2022-10-01 18:03:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:03:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"92\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen am Einsatzort und Beginn der ma&szlig;nahmen\",\
-            `12_abfzeit`      = \"2022-10-01 18:03:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:03:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-115;"2022-10-01 18:05:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:05:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"93\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage: Flie&szlig;geschwindigkeit und Pegelst&auml;nde\
-Antwort: Befindet sich in Kl&auml;rung\",\
-            `12_abfzeit`      = \"2022-10-01 18:05:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:05:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-116;"2022-10-01 18:05:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:05:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"94\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Fragen anch\
-1 Flie&szlig;gewschindigkeit\
-2 Pegelstand\
-3 Ver&auml;nderungen\
-4 Slipstelle\
-\",\
-            `12_abfzeit`      = \"2022-10-01 18:05:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:05:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-117;"2022-10-01 18:07:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 18:07:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"95\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ 5\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zur Information: Es treibt ein Gastank auf dem Kanal, m&ouml;glichst aufnehmen und Sichern! \",\
-            `12_abfzeit`      = \"2022-10-01 18:07:00\",\
-            `13_abseinheit`   = \"Florian Dorsten 1 ELW1-2\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-118;"2022-10-01 18:07:00";"Stab_EL gelesen_95";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"95\",\
-            `gelesen`      = \"2022-10-01 18:07:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-119;"2022-10-01 18:09:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 18:09:00\",\
-            `03_zeichen`      = \"fm1\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 18:09:00\",\
-            `15_quitzeichen` =  \"fm1\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"95\";;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-120;"2022-10-01 18:10:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:09:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"96\",\
-            `05_gegenstelle`  = \"WRZ 5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1-2  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 95 \
-&quot;Zur Information: Es treibt ein Gastank auf dem Kanal, m&ouml;glichst aufnehmen und Sichern! &quot;\
-\
-Frage: Gr&ouml;&szlig;e und Kilometrierung?\
-Antwort: negativ\
-\",\
-            `12_abfzeit`      = \"2022-10-01 18:09:00\",\
-            `13_abseinheit`   = \"WRZ 5\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 18:09:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-121;"2022-10-01 18:16:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:16:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"97\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Info: Str&ouml;mungsretter auf dem Deich,\
-Wenn Slippstelle bekannt, dann wird Boot geslippt\",\
-            `12_abfzeit`      = \"2022-10-01 18:16:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:16:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-122;"2022-10-01 18:16:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:16:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"98\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Beginn im Abschnitt\",\
-            `12_abfzeit`      = \"2022-10-01 18:16:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:16:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-123;"2022-10-01 18:19:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:19:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"99\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Ben&ouml;tigen Verpflegung + getr&auml;nke f&uuml;r 48 Kr&auml;fte\",\
-            `12_abfzeit`      = \"2022-10-01 18:19:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:19:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-124;"2022-10-01 18:20:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:20:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"100\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information: Slippstelle gefunden,\
-4 Boote im Wasser\
-\",\
-            `12_abfzeit`      = \"2022-10-01 18:20:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:20:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-125;"2022-10-01 18:21:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:21:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"101\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Beginn der Ma&szlig;nahmen vor Ort\",\
-            `12_abfzeit`      = \"2022-10-01 18:21:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:21:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-126;"2022-10-01 18:27:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:27:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"102\",\
-            `05_gegenstelle`  = \"WRZ6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Beleuchtung wird ben&ouml;tigt\
-Frage nach Verpflegung\",\
-            `12_abfzeit`      = \"2022-10-01 18:27:00\",\
-            `13_abseinheit`   = \"WRZ6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:27:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-127;"2022-10-01 18:29:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 18:29:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"103\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-2\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Koordinaten f&uuml;r THW: 32U3615105725570\",\
-            `12_abfzeit`      = \"2022-10-01 18:29:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 18:29:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-128;"2022-10-01 20:06:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:06:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"104\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Einsatzauftrag &uuml;bernommen\",\
-            `12_abfzeit`      = \"2022-10-01 20:06:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:06:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-129;"2022-10-01 20:07:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:07:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"105\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eintreffen in Einsatzabschnitt und einsatzbereit.\",\
-            `12_abfzeit`      = \"2022-10-01 20:07:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:07:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-130;"2022-10-01 20:08:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:08:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"106\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"ab sofort Deich&uuml;berwachung\",\
-            `12_abfzeit`      = \"2022-10-01 20:08:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:08:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-131;"2022-10-01 20:09:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:09:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"107\",\
-            `05_gegenstelle`  = \"WRZ 8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Auftrag Einsatzabschnitt 3 &uuml;bernommen und einsatzbereit\",\
-            `12_abfzeit`      = \"2022-10-01 20:09:00\",\
-            `13_abseinheit`   = \"WRZ 8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:09:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-132;"2022-10-01 20:10:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Me\",\
-            `01_datum`        = \"2022-10-01 20:10:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"108\",\
-            `05_gegenstelle`  = \"WRZ5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Auftrag Deich&uuml;berwachung &uuml;bernommen\",\
-            `12_abfzeit`      = \"2022-10-01 20:10:00\",\
-            `13_abseinheit`   = \"WRZ5\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:10:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-133;"2022-10-01 20:16:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 20:16:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"109\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ5\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Eine Information vom Deichgraf: rechtsseitig ist ein Baum auf den Deich gest&uuml;rzt\
-Erkunden sie die Lage\",\
-            `12_abfzeit`      = \"2022-10-01 20:16:00\",\
-            `13_abseinheit`   = \"Florian Dorsten 1 ELW1 1\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-134;"2022-10-01 20:16:00";"Stab_EL gelesen_109";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"109\",\
-            `gelesen`      = \"2022-10-01 20:16:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-135;"2022-10-01 20:18:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 20:18:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"110\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ7, WRZ8\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information eines Beobachters: Wildtiere auf dem Deich linksseitig\
-Erkunden sie die Lage und melden eventuelle Sch&auml;den\",\
-            `12_abfzeit`      = \"2022-10-01 20:18:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-136;"2022-10-01 20:18:00";"Stab_EL gelesen_110";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"110\",\
-            `gelesen`      = \"2022-10-01 20:18:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-137;"2022-10-01 20:19:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 20:19:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"111\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ4 / WRZ6\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information eines Anwohners: K&uuml;he auf dem Deich!\
-Erkunden sie und melden eventuelle Sch&auml;den\",\
-            `12_abfzeit`      = \"2022-10-01 20:19:00\",\
-            `13_abseinheit`   = \"EAL DLRG WE\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-138;"2022-10-01 20:19:00";"Stab_EL gelesen_111";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"111\",\
-            `gelesen`      = \"2022-10-01 20:19:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-139;"2022-10-01 20:20:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:20:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"112\",\
-            `05_gegenstelle`  = \"WRZ4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1                                        \",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Standort Burger King,\
-st&uuml;ndliche Deichbegehung\",\
-            `12_abfzeit`      = \"2022-10-01 20:20:00\",\
-            `13_abseinheit`   = \"WRZ4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:20:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-140;"2022-10-01 20:21:00";"Stab-schreiben";"INSERT into `lvweestab_nachrichten` SET\
-            `02_zeit`         = \"2022-10-01 20:21:00\",\
-            `02_zeichen`      = \"\",\
-            `04_nummer`       = \"113\",\
-            `04_richtung`     = \"A\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"WRZ4, WRZ5, WRZ6, WRZ7, WRZ8\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information vom Deichgraf:\
-Es werden Sands&auml;cke von der Kammkade entfernt\
-Erkunden sie die Lage und melden eventuelle Sch&auml;den\",\
-            `12_abfzeit`      = \"2022-10-01 20:21:00\",\
-            `13_abseinheit`   = \"Florian Dorsten 1 ELW1 1\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `16_empf`         = \"S2_rt,EL_gn\",\
-            `x00_status`      = \"2\",\
-            `x01_abschluss`   = \"f\"; "
-141;"2022-10-01 20:21:00";"Stab_EL gelesen_113";"INSERT into usr_el_el_read SET\
-            `nachnum`      = \"113\",\
-            `gelesen`      = \"2022-10-01 20:21:00\";4naka6r78uop7lqja04r1tna77;10.10.13.23"
-142;"2022-10-01 20:22:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 20:22:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 20:22:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"109\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-143;"2022-10-01 20:22:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:22:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"114\",\
-            `05_gegenstelle`  = \"WRZ5\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1  \",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 109 \
-&quot;Eine Information vom Deichgraf: rechtsseitig ist ein Baum auf den Deich gest&uuml;rzt\
-Erkunden sie die Lage&quot;\
-\",\
-            `12_abfzeit`      = \"2022-10-01 20:22:00\",\
-            `13_abseinheit`   = \"WRZ5\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 20:22:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-144;"2022-10-01 20:25:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 20:25:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 20:25:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"111\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-145;"2022-10-01 20:27:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:27:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"115\",\
-            `05_gegenstelle`  = \"WRZ4 und WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 111 \
-&quot;Information eines Anwohners: K&uuml;he auf dem Deich!\
-Erkunden sie und melden eventuelle Sch&auml;den&quot;\
-\
-WRZ meldet zus&auml;tzlich Quellung aus dem Deich km 2,2\",\
-            `12_abfzeit`      = \"2022-10-01 20:27:00\",\
-            `13_abseinheit`   = \"WRZ4 / WRZ6\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 20:27:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-146;"2022-10-01 20:28:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:28:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"116\",\
-            `05_gegenstelle`  = \"WRZ 6\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage: Standort der K&uuml;he auf dem Deich?\
-Antwort: negativ\",\
-            `12_abfzeit`      = \"2022-10-01 20:28:00\",\
-            `13_abseinheit`   = \"WRZ 6\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:28:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-147;"2022-10-01 20:29:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:29:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"117\",\
-            `05_gegenstelle`  = \"WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Deichdurchbruch am Hambacher bach\
-ben&ouml;tigen schnellstm&ouml;glichst 4 Paletten Sands&auml;ck\
-Luisenstra&szlig;e 12\",\
-            `12_abfzeit`      = \"2022-10-01 20:29:00\",\
-            `13_abseinheit`   = \"WRZ8\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:29:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-148;"2022-10-01 20:30:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:30:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"118\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1                          \",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information: Beobachtung einer Sickerlinie, Kilometer 1,6, westliche Seite\",\
-            `12_abfzeit`      = \"2022-10-01 20:30:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:30:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-149;"2022-10-01 20:30:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 20:30:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 20:30:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"110\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-150;"2022-10-01 20:31:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:31:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"119\",\
-            `05_gegenstelle`  = \"  WRZ7 und WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"EAL DLRG WE  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 110 \
-&quot;Information eines Beobachters: Wildtiere auf dem Deich linksseitig\
-Erkunden sie die Lage und melden eventuelle Sch&auml;den&quot;\
-\",\
-            `12_abfzeit`      = \"2022-10-01 20:31:00\",\
-            `13_abseinheit`   = \"WRZ7, WRZ8\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 20:31:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-151;"2022-10-01 20:34:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:34:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"120\",\
-            `05_gegenstelle`  = \"WRZ 7\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Frage: Genaue Klassifizierung der Tiere und genaue &Ouml;rtlichkeit,\
-Antwort: negativ\",\
-            `12_abfzeit`      = \"2022-10-01 20:34:00\",\
-            `13_abseinheit`   = \"WRZ 7\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:34:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-152;"2022-10-01 20:35:00";"FM-Ausgang-Sichter";"UPDATE `lvweestab_nachrichten` SET\
-            `03_datum`        = \"2022-10-01 20:35:00\",\
-            `03_zeichen`      = \"fm2\",\
-            `05_gegenstelle`  = \"\",\
-            `06_befweg` = \"\",\
-            `06_befwegausw`    = \"\",\
-            `15_quitdatum`   = \"2022-10-01 20:35:00\",\
-            `15_quitzeichen` =  \"fm2\",\
-            `16_empf`          =  \"S2_rt,EL_gn,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`   =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\",\
-            `x02_sperre`      = \"f\",\
-            `x03_sperruser`   = \"\"\
-             WHERE `00_lfd` = \"113\";;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-153;"2022-10-01 20:35:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:35:00\",\
-            `01_zeichen`      = \"fm1\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"121\",\
-            `05_gegenstelle`  = \"WRZ 4\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW 1-1\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Information: Abbruch der &Uuml;berwachung, da sechs Quellkaden bei Kilometer 1,9\",\
-            `12_abfzeit`      = \"2022-10-01 20:35:00\",\
-            `13_abseinheit`   = \"WRZ 4\",\
-            `14_zeichen`      = \"\",\
-            `14_funktion`     = \"\",\
-            `15_quitdatum`    = \"2022-10-01 20:35:00\",\
-            `15_quitzeichen`  =  \"fm1\",\
-            `16_empf`         =  \"S2_rt,EL_bl,UEL_bl,S1S4_bl,S3S6_bl,S5_bl,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-154;"2022-10-01 20:35:00";"FM-Eingang-Sichter";"INSERT into `lvweestab_nachrichten` SET\
-            `01_medium`       = \"Fu\",\
-            `01_datum`        = \"2022-10-01 20:35:00\",\
-            `01_zeichen`      = \"fm2\",\
-            `04_richtung`     = \"E\",\
-            `04_nummer`       = \"122\",\
-            `05_gegenstelle`  = \"WRZ4, WRZ5, WRZ6, WRZ7, WRZ8\",\
-            `07_durchspruch`  = \"\",\
-            `08_befhinweis`   = \"\",\
-            `08_befhinwausw`  = \"\",\
-            `09_vorrangstufe` = \"\",\
-            `10_anschrift`    = \"Florian Dorsten 1 ELW1 1  EL\",\
-            `11_gesprnotiz`   = \"f\",\
-            `12_anhang`       = \"\",\
-            `12_inhalt`       = \"Zitat: von A 113 \
-&quot;Information vom Deichgraf:\
-Es werden Sands&auml;cke von der Kammkade entfernt\
-Erkunden sie die Lage und melden eventuelle Sch&auml;den&quot;\
-\",\
-            `12_abfzeit`      = \"2022-10-01 20:35:00\",\
-            `13_abseinheit`   = \"WRZ4, WRZ5, WRZ6, WRZ7, WRZ8\",\
-            `14_zeichen`      = \"el\",\
-            `14_funktion`     = \"EL\",\
-            `15_quitdatum`    = \"2022-10-01 20:35:00\",\
-            `15_quitzeichen`  =  \"fm2\",\
-            `16_empf`         =  \"S2_rt,\",\
-            `17_vermerke`     =  \"\",\
-            `x00_status`      = \"8\",\
-            `x01_abschluss`   = \"t\";0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
-155;"2022-10-02 10:21:00";"Abmelden";"EL;el;EL;Stab;4naka6r78uop7lqja04r1tna77;10.10.13.23"
-156;"2022-10-02 10:21:00";"Abmelden";"Fernmelder1;fm1;A/W;Fernmelder;hg9nlg3nt44i2om3333dk06ni7;10.10.13.21"
-157;"2022-10-02 10:22:00";"Abmelden";"Fernmelder 2;fm2;A/W;Fernmelder;0pg2ln6snsudifj6pidnf19is7;10.10.13.22"
